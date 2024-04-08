@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 import { ProductProvider } from "./context/ProductContext";
 import SingUp from "./components/SingUp";
 import SingIn from "./components/SingIn";
-import AuthDetails from "./components/AuthDetails";
+import AuthDetails from "./context/AuthDetails";
 
 function App() {
   return (

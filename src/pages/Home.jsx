@@ -1,6 +1,4 @@
-// import React from 'react'
 import { useContext, useEffect } from 'react';
-// import { api } from '../api/axios.api';
 import '../styles/Home.css';
 import { useNavigate } from 'react-router-dom';
 import { ContextProvider } from '../context/ProductContext';
@@ -11,12 +9,15 @@ const Home = () => {
   useEffect(() => {
     fetchProducts();
   }, []);
+
   return (
     <div>
       <div className="header">
         {/*  */}
       </div>
+      
       <div className="products">
+        
         {items &&
           items.map((item) => (
             <div

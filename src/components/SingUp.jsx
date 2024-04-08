@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
-import { auth } from "../Firebase.config";
+import { auth } from "../firebase.config";
 import "../styles/Form.css";
 import { useNavigate } from "react-router-dom";
 import { SignInUpAnimation } from "../pages/SignInUpAnimation";
