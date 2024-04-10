@@ -9,7 +9,6 @@ const Header = () => {
         <span onClick={() => navigate('/')}>Главная</span>
         <span onClick={() => navigate('/contacts')}>Контакты</span>
         <span onClick={() => navigate('/cart')}>Корзина</span>
-        <span onClick={() => navigate('/singup')}>Вход</span>
       </div>
     </div>
   );
